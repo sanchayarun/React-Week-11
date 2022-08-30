@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.App-photo {
-  height: 55vmin;
+.App-logo {
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 } */
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282f34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.titleName{
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.address{
+  margin-top: 2px;
 }
 
 .list{
