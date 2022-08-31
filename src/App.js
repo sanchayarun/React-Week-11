@@ -2,6 +2,8 @@ import './App.css';
 import Footer from './Footer/Footer.jsx';
 import MyComponent from './Component/MyComponent';
 import ContactComponent from './Prop_Component/contactComponent';
+import Clock from './Clock/Clock';
+
 
 function App() {
   const address = {
@@ -13,6 +15,7 @@ function App() {
     <>
     <div className="App">
       <header className="App-header">
+        <Clock/> 
         <h1 className="titleName">Teddy</h1> 
         <p className= "address">{address.postcode}, {address.city}</p>
         <img src="https://i.imgur.com/9Oqst5c.jpg" className="App-logo" alt="teddy photo" />
