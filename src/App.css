@@ -40,14 +40,42 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #8accde;
 }
 
-@keyframes App-logo-spin {
+.App-footer{
+  background-color: #9dd5e4;
+  display: block;
+}
+
+.Footer-head{
+  margin-top: 0%;
+  background-color: azure;
+  /* text-align: center; */
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding: 0%;
+}
+
+
+.Footer-list{
+  
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 25px;
+}
+
+
+
+
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

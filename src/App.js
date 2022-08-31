@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './Footer/Footer.jsx';
+import MyComponent from './Component/MyComponent';
 
 function App() {
   const address = {
@@ -29,12 +30,14 @@ function App() {
         >
           Breed Specific Info
         </a>
-        
+        <MyComponent />
       </header>
       
     </div>
-    
-   <Footer /> 
+    <div className = "App-footer">   
+        <Footer /> 
+    </div>
+ 
     </>
     
     
