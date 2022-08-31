@@ -43,6 +43,21 @@
   color: #8accde;
 }
 
+.App-contact{
+  background-color: rgb(239, 123, 123);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Contact-info{
+  margin: 0;
+}
+
+.Contact-header{
+  margin: 0;
+  padding-bottom: 5px;
+}
+
 .App-footer{
   background-color: #9dd5e4;
   display: block;

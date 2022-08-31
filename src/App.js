@@ -1,6 +1,7 @@
 import './App.css';
 import Footer from './Footer/Footer.jsx';
 import MyComponent from './Component/MyComponent';
+import ContactComponent from './Prop_Component/contactComponent';
 
 function App() {
   const address = {
@@ -30,13 +31,14 @@ function App() {
         >
           Breed Specific Info
         </a>
-        <MyComponent />
+        <MyComponent /> 
       </header>
+      <div className="App-contact" > <ContactComponent /></div>
+      </div>
       
-    </div>
-    <div className = "App-footer">   
-        <Footer /> 
-    </div>
+      <div className = "App-footer">   
+          <Footer /> 
+      </div>
  
     </>
     
