@@ -1,5 +1,5 @@
 import './App.css';
-
+import Footer from './Footer/Footer.jsx';
 
 function App() {
   const address = {
@@ -8,6 +8,7 @@ function App() {
   }
 
   return (
+    <>
     <div className="App">
       <header className="App-header">
         <h1 className="titleName">Teddy</h1> 
@@ -28,9 +29,15 @@ function App() {
         >
           Breed Specific Info
         </a>
-       
+        
       </header>
+      
     </div>
+    
+   <Footer /> 
+    </>
+    
+    
   );
 }
 
