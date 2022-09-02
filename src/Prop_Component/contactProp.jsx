@@ -1,7 +1,7 @@
 
 const ContactInfo = (props) => {
     return(
-        <p className="Contact-info">Mobile: {props.mobile} &emsp; Mobile: {props.mobileTwo} </p>
+<p className="Contact-info">Mobile: {props.mobile}  &nbsp;   Alternative Mobile: {props.mobileTwo} </p>
     );
 }
 
