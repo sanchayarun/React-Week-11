@@ -14,6 +14,8 @@ const  Login = () => {
     }
 
 return(
+<>
+    <h2>Login Page</h2>
 
     <form onSubmit={event =>handleSubmit(event)}>
         <label htmlFor = "username"> Username: &nbsp;</label>
@@ -24,7 +26,7 @@ return(
         <input type = "submit" value = "Enter"/>
 
     </form>
-
+</>
 )
 
 }
