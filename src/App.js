@@ -1,9 +1,17 @@
 import React from "react";
+import {Routes, Route } from "react-router-dom";
 import './App.css';
 import Footer from './Footer/Footer.jsx';
 import MyComponent from './Component/MyComponent';
 import ContactComponent from './Prop_Component/contactComponent';
 import Clock from './Clock/Clock';
+import Login from './Login/Login';
+import Car from './Car/Car';
+import ShoppingCart from './ShoppingCart/ShoppingCart';
+import Nav from "./Route/Nav";
+import Greet from "./Greet/Greet";
+// import LessText from "./LessText/LessText";
+
 
 
 function App() {
@@ -16,7 +24,25 @@ function App() {
     <>
     <div className="App">
       <header className="App-header">
+        <Greet name = "Teddy"/>
+    
         <Clock/> 
+       
+        <Nav/>
+
+        <div>
+        <Routes>
+        
+        <Route path="/" element={<App />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Car/>} />
+        <Route path="/login" element={<ShoppingCart />} />  
+          
+        </Routes>
+        </div>
+
+
+
         <h1 className="titleName">Teddy</h1> 
         <p className= "address">{address.postcode}, {address.city}</p>
         <img src="https://i.imgur.com/9Oqst5c.jpg" className="App-logo" alt="teddy" />

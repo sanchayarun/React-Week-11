@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ProductList from '../ProductTable/ProductTable';
 import AddItems from './AddItem';
 import CartItems from './CartItems';
 
@@ -24,6 +25,7 @@ const ShoppingCart = () => {
 
     return(
        <>
+            <ProductList />
            <AddItems submitHandler={submitForm} newItem={newItem} handleAdd={handleAdd} />
             <CartItems items={items}/> 
        </>
