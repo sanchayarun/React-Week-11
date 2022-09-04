@@ -7,15 +7,19 @@ import Login from './Login/Login';
 import Car from './Car/Car';
 import ProductList from './ProductTable/ProductTable';
 import ShoppingCart from './ShoppingCart/ShoppingCart';
+import LessText from './LessText/LessText';
+import Greet from './Greet/Greet';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Greet name = "Teddy"/>
     <Login />
     <Car />
     <ProductList />
     <ShoppingCart />
+    <LessText text = "Hooks are a new addition in React 16.8 which let you use state and other React features without writing a class - or hook into them." maxLength={15} />
     <App />
    
   </React.StrictMode>
